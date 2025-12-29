@@ -1,7 +1,7 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   
-  "include": ["src", "hello.ts", "hello.js"],
+  "include": ["src", "src/hello.ts", "src/hello.js", "src/boolean.js"],
   "compilerOptions": {
     
     // File Layout
