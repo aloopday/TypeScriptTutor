@@ -1,0 +1,1 @@
+let x: never =true;//Error:type 'boolean' is not assignable to type 'never'
