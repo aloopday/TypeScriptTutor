@@ -1,0 +1,7 @@
+// Function with explicit parameter and return types
+function greet(name) {
+    return "Hello, ".concat(name, "!");
+}
+// TypeScript will ensure you pass the correct argument type
+console.log(greet("Alice")); // Outputs: Hello, Alice!
+// greet(42); // Error: Argument of type '42' is not assignable to parameter of type 'string'
