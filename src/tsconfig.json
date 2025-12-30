@@ -17,6 +17,7 @@
     "exactOptionalPropertyTypes": true,
 
     // ... other options
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "strictNullChecks":true
   }
 }
