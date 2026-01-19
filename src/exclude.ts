@@ -6,3 +6,4 @@ const value: Exclude<Primitive,string>=true;
 // removed it from the type.
 
 console.log(typeof value);
+
