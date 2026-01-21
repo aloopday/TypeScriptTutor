@@ -4,5 +4,10 @@
     "@typescript-eslint/parser": "^8.53.1",
     "eslint": "^9.39.2",
     "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "type-check": "tsc --noEmit"
   }
 }
